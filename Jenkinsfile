@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('stage1') {
             steps {
-                sh 'echo `ls-l`'
+                sh 'echo `ls -l`'
             }
         }
          stage('stage2') {
