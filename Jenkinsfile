@@ -1,9 +1,14 @@
 pipeline {
     agent any 
     stages {
-        stage('checkout') {
+        stage('stage1') {
             steps {
-                sh 'echo checkout step'
+                sh 'echo stage1 step'
+            }
+        }
+         stage('stage2') {
+            steps {
+                sh 'echo stage2 step'
             }
         }
     }
