@@ -2,7 +2,7 @@ pipeline {
     agent any 
     parameters {
         choice(name: 'number1', choices: [ '1', '2', '3' ] )
-        string(name: 'words', defaultValue: 'test' )
+        string(name: 'names', choices: [ 'kiran', 'ig', 'cd' ] )
     }
         stages {
         stage('checkout') {
