@@ -9,3 +9,4 @@ echo ""svm
 echo "svg"
 echo "RRR"
 echo "I am going"
+echo "I am coming to bgm"
