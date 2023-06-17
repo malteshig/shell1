@@ -1,5 +1,5 @@
-echo "Enter the value of n"
-read n
+echo "Enter the value of number"
+read number
 sum=0
 while [ $n -gt 0 ]
 do 
